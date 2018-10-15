@@ -17,10 +17,19 @@ const Landing = () => (
               justifyContent: 'space-between',
             }}
           >
-            <FaFacebook color={'white'} size={50} />
-            <FaInstagram color={'white'} size={50} />
-            <FaTwitter color={'white'} size={50} />
-            <FaGithub color={'white'} size={50} />
+            <a href="https://www.facebook.com/beareater">
+              <FaFacebook color={'white'} size={50} />
+            </a>
+            <a href="https://www.instagram.com/jameszzzzz/">
+              <FaInstagram color={'white'} size={50} />
+            </a>
+            <a href="https://twitter.com/PatiponJame">
+              <FaTwitter color={'white'} size={50} />
+            </a>
+
+            <a href="https://github.com/JaMeSz04">
+              <FaGithub color={'white'} size={50} />
+            </a>
           </div>
         </div>
       </div>
